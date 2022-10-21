@@ -1,0 +1,198 @@
+#tong{
+	width: 100%;
+	height: 2400px;
+}
+#tren{
+	width: 100%;
+	height: 5%;
+}
+#tren > .tren{
+	width: 100%;
+	height: 70%;
+}
+#tren > .tren > .trai{
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+#tren > .tren > .phai{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+#tren > .duoi{
+	width: 100%;
+	height: 30%;
+}
+#duoi{
+	width: 100%;
+	height: 95%;
+	background: #eef1f2;
+}
+#duoi_tong{
+	margin: auto;
+	width: 90%;
+	height: 100%;
+}
+#duoi_tong > .tren{
+	width: 100%;
+	height: 32%;
+}
+#duoi_tong > .tren > .tren{
+	width: 100%;
+	height: 75%;
+}
+#duoi_tong > .tren > .tren > .trai{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+#duoi_tong > .tren > .tren > .giua{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-image: url('C:/Users/Admin/OneDrive/Hình ảnh/Saved Pictures/Untitled.png');
+	background-repeat: no-repeat;
+	background-size: 100%;	
+}
+#duoi_tong > .tren > .tren > .phai{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+#duoi_tong > .tren > .duoi{
+	width: 100%;
+	height: 25%;
+}
+#duoi_tong > .giua{
+	width: 100%;
+	height: 45%;
+}
+#duoi_tong > .giua > .tren{
+	width: 100%;
+	height: 50%;
+}
+#duoi_tong > .giua > .duoi{
+	width: 100%;
+	height: 50%;
+}
+#duoi_tong > .duoi{
+	width: 100%;
+	height: 23%;
+}
+#duoi_tong > .duoi > .tren{
+	width: 100%;
+	height: 60%;
+}
+#duoi_tong > .duoi > .duoi{
+	width: 100%;
+	height: 40%;
+	border-radius: 10px;
+	background: white;
+}
+.login a{
+	text-decoration: none;
+	color: #51444f;
+	font-family:Tahoma;
+	font-size: 10px;
+	font-weight: bold;
+}
+.menu tr td{
+	text-align: center;
+	font-family: system-ui;
+	font-weight: 500;
+	font-size: 15px;
+	border: 1px solid #b7c5c7;
+	border-radius: 5px;
+}
+.menu tr td a{
+	text-decoration: none;
+	color: #51444f;;
+}
+.menu tr td a:hover {
+	color: red ;
+	font-weight: bold;
+}
+.tren .trai ul{ /* menu dọc  */
+	list-style-type: none;
+	padding: 0px;
+	margin-top: 10px;
+}
+.tren .trai ul li{
+	width: 100%;
+	height: 65px;
+	position: relative;
+}
+.tren .trai ul li ul{
+	display: none;
+}
+.tren .trai a{
+	text-decoration: none;
+	color: #51444f;
+	font-family: system-ui;
+	font-weight: 500;
+	padding: 20px;
+}
+.tren > .trai > ul > li:hover{
+	background: #ff6600;
+	border-radius: 10px;
+}
+.tren .trai ul li:hover ul{
+	display: block;
+	position: absolute;
+	right: -282px;
+	top: -11px;
+	width: 280px;
+	background: #eef1f2;
+	border-radius: 10px;
+}
+.tren .trai ul li ul li:hover a{
+	color: #cc0000; /* đỏ đậm */
+	font-weight: bold;
+}
+.titleMenuDoc{
+	font-family: system-ui;
+	font-weight: 500;
+	font-weight: bold;
+	color: #cc0000;
+}
+.SanPhamGT{
+	text-align: center;
+	font-family: system-ui;
+	font-weight: 400;
+	color: #51444f;
+}
+.SanPhamMV{
+	text-align: center;
+	font-family: system-ui;
+	color: #ff6600;
+}
+.SanPhamMV tr td:hover {
+	width: 500px;
+}
+.ViSao{
+	text-align: center;
+	font-family: system-ui;
+	color: #51444f;
+}
+.ViSao .CamKet{
+	height: 120px;
+	color: #51444f;
+	font-size: 20px;
+	font-weight: 500;
+
+}
+.ViSao .CamKet td{
+	background: white;
+	border-radius: 10px;
+}
+.CamKet td:hover {
+	border: 1px solid red;
+	color: red;
+}
+.LoiKet{
+	text-align: center;
+	font-family: system-ui;
+	font-weight: 500;
+	color: #51444f;
+}
